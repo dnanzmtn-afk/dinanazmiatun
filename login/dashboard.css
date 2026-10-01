@@ -1,0 +1,226 @@
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #6e4c42;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #6e4c42 !important;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .15);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+
+
+/* =====================================
+   WARNA DASHBOARD
+===================================== */
+
+/* Background halaman */
+html,
+body {
+  background-color: #fffaf3 !important;
+  color: #6e4c42 !important;
+}
+
+/* =====================================
+   NAVBAR ATAS
+===================================== */
+
+header.navbar {
+  background-color: #6e4c42 !important;
+}
+
+.navbar-brand {
+  background-color: #6e4c42 !important;
+  color: #fffaf3 !important;
+}
+
+/* =====================================
+   SIDEBAR
+===================================== */
+
+.sidebar,
+.sidebar.bg-body-tertiary,
+.sidebar .offcanvas-md,
+.sidebar .offcanvas-body {
+  background-color: #6e4c42 !important;
+}
+
+.sidebar {
+  border-color: #eaded5 !important;
+}
+
+/* Tulisan menu */
+.sidebar .nav-link {
+  color: #fffaf3 !important;
+}
+
+/* Hover menu */
+.sidebar .nav-link:hover {
+  background-color: #f7d9dc !important;
+  color: #6e4c42 !important;
+}
+
+/* Menu aktif */
+.sidebar .nav-link.active {
+  background-color: #f7d9dc !important;
+  color: #6e4c42 !important;
+}
+
+/* Judul Saved Reports */
+.sidebar-heading {
+  color: #f7d9dc !important;
+}
+
+/* Link saved reports */
+.sidebar .link-secondary {
+  color: #fffaf3 !important;
+}
+
+/* =====================================
+   AREA UTAMA
+===================================== */
+
+main {
+  background-color: #fffaf3 !important;
+}
+
+/* =====================================
+   JUDUL
+===================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #6e4c42 !important;
+}
+
+/* =====================================
+   CARD
+===================================== */
+
+.card {
+  background-color: #ffffff !important;
+  border-color: #eaded5 !important;
+}
+
+/* =====================================
+   TABEL
+===================================== */
+
+.table {
+  --bs-table-bg: #ffffff !important;
+  --bs-table-color: #6e4c42 !important;
+  color: #6e4c42 !important;
+}
+
+.table thead,
+.table thead th {
+  background-color: #f7d9dc !important;
+  color: #6e4c42 !important;
+}
+
+/* =====================================
+   TOMBOL
+===================================== */
+
+.btn-primary {
+  background-color: #6e4c42 !important;
+  border-color: #6e4c42 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #543932 !important;
+  border-color: #543932 !important;
+}
+
+/* Tombol edit */
+.btn-warning {
+  background-color: #f7d9dc !important;
+  border-color: #f7d9dc !important;
+  color: #6e4c42 !important;
+}
+
+/* Tombol hapus */
+.btn-danger {
+  background-color: #c96f6f !important;
+  border-color: #c96f6f !important;
+}
+
+/* =====================================
+   INPUT
+===================================== */
+
+.form-control,
+.form-select {
+  background-color: #ffffff !important;
+  color: #6e4c42 !important;
+  border-color: #eaded5 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #d8aeb5 !important;
+  box-shadow: 0 0 0 .2rem rgba(247, 217, 220, .5) !important;
+}
+
+/* =====================================
+   GARIS
+===================================== */
+
+.border-bottom {
+  border-color: #eaded5 !important;
+}
+
+/* =====================================
+   LINK
+===================================== */
+
+a {
+  color: #6e4c42;
+}
+
+a:hover {
+  color: #543932;
+}
